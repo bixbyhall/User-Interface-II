@@ -108,11 +108,11 @@ nav {
     justify-content: center;
 }
 
-#sam-hall {
+.sam-hall {
     color:#9d4edd;
 }
 
-#symbols {
+.symbols {
     color: #ff6d00;
 }
 
@@ -166,3 +166,42 @@ button {
 button:hover {
     color: #ff6d00;
 }
+
+.projects-img {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.about-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+#about-p {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 50px;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    padding: 45px;
+}
+
+.contact-box {
+    width: 800px;
+    height: 300px;
+    border: 4px solid #9d4edd;
+    margin-left: 15px;
+}
+
+.console {
+    font-size: 2rem;
+    font-family: 'Fira Mono', monospace;
+}
+
+
