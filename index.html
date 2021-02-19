@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@700&display=swap" rel="stylesheet"> 
     <title>Document</title>
 </head>
 <body>
-    
+    <div>
+        <header>
+            <div class="first-title">
+                <h1 class="title"><span class="sam-hall">sam-hall@website</span>:<span class="symbols">~$</span></h1> <!-- Planning to add an animation of a cursor here-->
+            </div>
+<!-- I want to be able to eventually make the entire webpage function without needing to use your mouse.-->
+            <nav id="header-nav"> 
+                
+                <a class="flex-item" href="index.html">./home</a>
+                <a class="flex-item" href="about.html">./about</a>
+                <a class="flex-item" href="contact.html">./contact</a>
+                <a class="flex-item" href="projects.html">./projects</a>
+
+            </nav>
+
+        </header>
+        <section id="intro">
+
+            <h2 id="intro-content">DESCRIPTION</h2>
+            
+            <p class="content">Welcome to my portfolio website where I will be putting all of the projects that I work on while 
+                at Lambda School as well as after. I have a special interest in cyber security and hope to incorporate it as 
+                much as possible. I hope that you enjoy your time here with me!
+            </p>
+        </section>
+        <section class="big-pic">
+            <img src="https://picsum.photos/1800/400"> <!-- Replace with image link.-->
+        </section>
+        <section id="project-images">
+            <img class="pics" src="https://picsum.photos/400/300">
+            <img class="pics" src="https://picsum.photos/400/300"> <!-- Replace all of these with image links.-->
+            <img class="pics" src="https://picsum.photos/400/300">
+            <p id="project-content">
+                Here are some of my most recent projects that I have worked on! Click any of them to be redirected to my reports on them.
+                Obviously, this website is also one of my projects that I will be consistently working to improve.
+            </p>
+        </section>
+        <footer>
+            <button href="">./contact-sam.sh</button>
+        </footer>
+    </div>
 </body>
 </html>
